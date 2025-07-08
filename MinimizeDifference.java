@@ -32,4 +32,6 @@ public class MinimizeDifference {
     }
 }
 // Output: Minimum difference is 5
-// This code defines a method to minimize the difference between the maximum and minimum heights of buildings after adjusting their heights by a given value k.
+// This code defines a method to minimize the difference between 
+//the maximum and minimum heights of buildings after adjusting their heights
+// by a given value k.
