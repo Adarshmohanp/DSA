@@ -52,3 +52,15 @@ public class NextPermutation {
         System.out.println(Arrays.toString(arr));  // Output: [1, 3, 2]
     }
 }
+
+
+/*If all permutations of the array are sorted in dictionary (lexicographical) order,
+ the next permutation is the one that comes immediately after the current one.
+ * Find rightmost element smaller than its next (pivot)
+
+If no pivot, reverse the array (it’s the last permutation)
+
+Find rightmost element greater than pivot, and swap
+
+Reverse suffix after the pivot
+ */
