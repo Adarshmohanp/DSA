@@ -12,14 +12,13 @@ Explanation: Starting from the last element of the array, i.e, 12,
 and moving in a circular fashion, we have max subarray as 
 12, 8, -8, 9, -9, 10, which gives maximum sum as 22. */
 
-import java.util.*;
+//import java.util.*;
 /* 
 public class maxSumCircularArray {
     public static void main(String[] args){
         int arr[]={8,-8,9,-9,10,-11,12};
         int result=maxSum(arr);
         System.out.println("Result is "+result);
-
     }
 
     public static int maxSum(int arr[]){
